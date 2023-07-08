@@ -1,10 +1,12 @@
-#building a calculator
-num1 = input("Enter a Number: ")
-num2 = input("Enter another Number: ")
-result = int(num1) + int(num2)
-print(result)
+#Building a mad lib game
+print("Roses are red")
+print("violets are blue")
+print("i love you")
 
-num3 = input("Enter a Number: ")
-num4 = input("Enter another Number: ")
-result = float(num3) + float(num4)
-print(result)
+color = input ("Enter a color: ")
+plural_noun = input ("Enter a Plural Noun: ")
+celebrity = input ("Enter a Celebrity: ")
+print( "Roses are " + color )
+print( plural_noun + " are blue")
+print("i love " + celebrity )
+
